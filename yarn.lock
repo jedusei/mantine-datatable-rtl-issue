@@ -9933,6 +9933,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mantine-datatable@npm:^7.11.3":
+  version: 7.11.3
+  resolution: "mantine-datatable@npm:7.11.3"
+  peerDependencies:
+    "@mantine/core": ">=7.8"
+    "@mantine/hooks": ">=7.8"
+    clsx: ">=2"
+    react: ">=18.2"
+  checksum: 10c0/3436cbfd8535288e96eb6a2e77b9f6e82925c0331f5e0ce90e9574677c45c332c9b3f7a9c955ca6d3bdcb46749cc93f87f5c30f09d5608356d4f7e9ee87ee36e
+  languageName: node
+  linkType: hard
+
 "mantine-vite-template@workspace:.":
   version: 0.0.0-use.local
   resolution: "mantine-vite-template@workspace:."
@@ -9965,6 +9977,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:^4.6.2"
     identity-obj-proxy: "npm:^3.0.0"
     jsdom: "npm:^24.1.0"
+    mantine-datatable: "npm:^7.11.3"
     postcss: "npm:^8.4.38"
     postcss-preset-mantine: "npm:1.17.0"
     postcss-simple-vars: "npm:^7.0.1"

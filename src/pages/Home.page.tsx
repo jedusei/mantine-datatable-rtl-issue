@@ -1,11 +1,11 @@
 import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { TestTable } from '@/components/TestTable';
 
 export function HomePage() {
   return (
     <>
       <Welcome />
-      <ColorSchemeToggle />
+      <TestTable />
     </>
   );
 }
