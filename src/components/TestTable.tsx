@@ -2,6 +2,7 @@ import { DataTable } from 'mantine-datatable';
 import { airports } from '@/mocks/airports';
 
 import '@mantine/core/styles.layer.css';
+import 'mantine-datatable/styles.css';
 import 'mantine-datatable/styles.layer.css';
 
 export function TestTable() {
