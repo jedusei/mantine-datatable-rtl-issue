@@ -8,7 +8,7 @@ window.HTMLElement.prototype.scrollIntoView = () => {};
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
   value: vi.fn().mockImplementation((query) => ({
-    matches: false,
+    matches: true,
     media: query,
     onchange: null,
     addListener: vi.fn(),
